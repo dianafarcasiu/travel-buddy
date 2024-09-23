@@ -11,7 +11,7 @@ function CountriesList() {
   ];
 
   if (!cities.length)
-    return <Message>Click on the map to start adding cities!</Message>;
+    return <Message>Click on the map to start adding countries!</Message>;
 
   return (
     <ul className="grid grid-cols-2 gap-6 w-[85%] mx-auto">
