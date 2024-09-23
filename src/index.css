@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
+
+@import url("https://unpkg.com/leaflet@1.9.4/dist/leaflet.css");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Montserrat", sans-serif;
+  }
+  body {
+    overflow-y: hidden;
+  }
+  .logo {
+    font-family: "Sacramento", cursive;
+  }
+  .btn {
+    @apply py-2 px-3 rounded-lg outline-none active:scale-95 text-xs md:text-sm uppercase font-bold text-zinc-800 mt-1;
+  }
+  .content-center {
+    @apply flex justify-center items-center;
+  }
+
+  /* Explore */
+  .explore-nav {
+    @apply bg-zinc-600 py-2 px-4 transition-colors uppercase font-bold text-xs;
+  }
+  .delete-btn {
+    @apply content-center w-4 h-4 text-zinc-200 bg-zinc-500 rounded-full hover:bg-red-600;
+  }
+
+  /* City info + form */
+  .text-box {
+    @apply bg-zinc-600 w-[85%] mx-auto rounded-lg text-start px-8 py-6 text-zinc-100 text-sm md:text-base;
+  }
+  .row {
+    @apply mb-6;
+  }
+  .label {
+    @apply uppercase text-xs font-extrabold mb-2 text-zinc-300;
+  }
+  .form-row {
+    @apply mb-5 flex flex-col;
+  }
+  .form-input {
+    @apply rounded-md outline-none text-zinc-800 p-2 bg-zinc-200 focus:bg-zinc-100;
+  }
+}
