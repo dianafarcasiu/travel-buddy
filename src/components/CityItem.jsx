@@ -15,7 +15,7 @@ function CityItem({ city }) {
       to={`${id}?lat=${position.lat}&lng=${position.lng}`}
       className="w-[85%]"
     >
-      <li className="flex px-4 py-3 my-2 rounded-xl justify-between items-center bg-zinc-600 border-l-4 border-amber-500">
+      <li className="flex px-4 py-3 my-2 justify-between items-center item-style item-hover">
         <h1 className="font-bold content-center gap-2">
           <span>{emoji}</span>
           <span>{name}</span>

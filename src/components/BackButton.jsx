@@ -5,7 +5,7 @@ function BackButton() {
 
   return (
     <button
-      className="btn text-zinc-200 border border-zinc-300"
+      className="btn back-btn"
       onClick={(e) => {
         e.preventDefault();
         navigate(-1);

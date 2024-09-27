@@ -8,7 +8,7 @@ function ExploreNav() {
           <NavLink
             to="cities"
             className={({ isActive }) =>
-              `explore-nav rounded-l-lg ${isActive ? "bg-zinc-800" : ""}`
+              `explore-nav rounded-l-lg ${isActive ? "explore-nav-active" : ""}`
             }
           >
             Cities
@@ -18,7 +18,7 @@ function ExploreNav() {
           <NavLink
             to="countries"
             className={({ isActive }) =>
-              `explore-nav rounded-r-lg ${isActive ? "bg-zinc-800" : ""}`
+              `explore-nav rounded-r-lg ${isActive ? "explore-nav-active" : ""}`
             }
           >
             Countries
