@@ -1,0 +1,1 @@
+import{j as s,N as t}from"./index-BvHtSB_e.js";function n({color:e="dark"}){return s.jsx(t,{to:"/",children:s.jsxs("div",{className:"inline-flex items-center logo",children:[s.jsx("img",{src:`/travel-buddy/logo-${e}.png`,className:"w-14 sm:w-16"}),s.jsx("span",{className:`text-2xl sm:text-3xl ${e==="dark"?"text-zinc-800":"text-amber-500"}`,children:"Buddy"})]})})}export{n as L};
